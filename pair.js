@@ -75,30 +75,30 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "QUEEN-ELISA~" + string_session;
+                        let md = "mildred~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*Hello there ! 👋🏻* 
 
 > Do not share your session id with anyone.
 
- *Thanks for using Queen Elisa 🚩* 
+ *Thanks for using JMz MIDKING TECH🚩* 
 
 > Join WhatsApp Channel :- ⤵️
  
-https://whatsapp.com/channel/0029VbAsVFh2phHUOXErCs28
+https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/ayanmdoz/QUEEN-ELISA
+https://github.com/Joshuamambo1/MILDRED-XMD-V1
 
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʏᴀɴ ꜱᴇᴠᴇɴ ᴍᴏᴅᴢ™*`; 
+> *© *J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ A̸͟͞l̸͟͞i̸͟͞v̸͟͞e̸͟͞*™*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "QUEEN ELISA MULTIDEVICE WHATSAPP BOT",
-thumbnailUrl: "https://files.catbox.moe/vqbyeu.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbAsVFh2phHUOXErCs28",
+title: "JMz MIDKING MULTIDEVICE WHATSAPP BOT",
+thumbnailUrl: "https://files.catbox.moe/ifbd7q.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -107,12 +107,12 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploying Queen Elisa*\n\n ◦ *Github:* https://github.com/Ayanmdoz/QUEEN-ELISA`;
+                            let desc = `*Don't Share with anyone this code use for deploying Queen Elisa*\n\n ◦ *Github:* https://github.com/Joshuamambo1/MILDRED-XMD-V1`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "QUEEN ELISA MULTIDEVICE WHATSAPP BOT",
+title: "JMz MIDKING TECH MULTIDEVICE WHATSAPP BOT",
 thumbnailUrl: "https://files.catbox.moe/vqbyeu.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VbAsVFh2phHUOXErCs28",
 mediaType: 2,
@@ -126,7 +126,7 @@ showAdAttribution: true
                     await delay(10);
                     await sock.ws.close();
                     await removeFile('./temp/' + id);
-                    console.log(`👤 ${sock.user.id} QUEEEEEENN ELISAAAAAAAAA...`);
+                    console.log(`👤 ${sock.user.id} mildred...`);
                     await delay(10);
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
