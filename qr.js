@@ -70,30 +70,30 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "QUEEN-ELISA~" + string_session;
+                        let md = "mildred~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there Queen Elisa User! 👋🏻* 
+                        let desc = `*Hello there JMz MIDKING TECH User! 👋🏻* 
 
 > Do not share your session id with anyone.
 
- *Thanks for using Queen Elisa 🚩* 
+ *Thanks for using JMz MIDKING TECH 🚩* 
 
 > Join WhatsApp Channel :- ⤵️
  
-https://whatsapp.com/channel/0029VbAsVFh2phHUOXErCs28
+https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/Ayanmdoz/QUEEN-ELISA 
+https://github.com/Joshuamambo1/MILDRED-XMD-V1 
 
-> *_© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʏᴀɴ ꜱᴇᴠᴇɴ ᴍᴏᴅᴢ_*`;
+> *_© powered by J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ A̸͟͞l̸͟͞i̸͟͞v̸͟͞e̸͟͞_*`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "QUEEN ELISA MULTIDEVICE WHATSAPP BOT 2025",
-thumbnailUrl: "https://files.catbox.moe/vqbyeu.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbAsVFh2phHUOXErCs28",
+title: "JMz MIDKING TECH MULTIDEVICE WHATSAPP BOT 2025",
+thumbnailUrl: "https://files.catbox.moe/jog59s.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -102,28 +102,28 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Hello there Queen Elisa User! 👋🏻* 
+                            let desc = `*Hello there JMz MIDKING TECH User! 👋🏻* 
 
 > Do not share your session id with anyone.
 
- *Thanks for using QUEEN ELISA 🚩* 
+ *Thanks for using JMz MIDKING TECH 🚩* 
 
 > Join WhatsApp Channel :- ⤵️
-https://whatsapp.com/channel/0029VbAsVFh2phHUOXErCs28 
+https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T 
 
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/Ayanmdoz/QUEEN-ELISA 
+https://github.com/Joshuamambo1/MILDRED-XMD-V1 
 
-> *_© Powered BY ᴀʏᴀɴ ꜱᴇᴠᴇɴ ᴍᴏᴅᴢ_*`;
+> *_© Powered BY J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ A̸͟͞l̸͟͞i̸͟͞v̸͟͞e̸͟͞_*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "QUEEN ELISA MULTIDEVICE WHATSAPP BOT 2025",
-thumbnailUrl: "https://files.catbox.moe/vqbyeu.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbAsVFh2phHUOXErCs28",
+title: "JMz MIDKING TECH MULTIDEVICE WHATSAPP BOT 2025",
+thumbnailUrl: "https://files.catbox.moe/jog59s.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
@@ -154,7 +154,7 @@ showAdAttribution: true
     await GIFTED_MD_PAIR_CODE();
 });
 setInterval(() => {
-    console.log("☘️ Elisaaaaaaaaaaaaaa...");
+    console.log("☘️ mildred...");
     process.exit();
 }, 180000); //30min
 module.exports = router;
