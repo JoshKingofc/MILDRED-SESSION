@@ -97,7 +97,7 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "JMz MIDKING MULTIDEVICE WHATSAPP BOT",
-thumbnailUrl: "https://files.catbox.moe/ifbd7q.jpg",
+thumbnailUrl: "https://files.catbox.moe/jog59s.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T",
 mediaType: 1,
 renderLargerThumbnail: true
@@ -113,7 +113,7 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "JMz MIDKING TECH MULTIDEVICE WHATSAPP BOT",
-thumbnailUrl: "https://files.catbox.moe/vqbyeu.jpg",
+thumbnailUrl: "https://files.catbox.moe/jog59s.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VbAsVFh2phHUOXErCs28",
 mediaType: 2,
 renderLargerThumbnail: true,
